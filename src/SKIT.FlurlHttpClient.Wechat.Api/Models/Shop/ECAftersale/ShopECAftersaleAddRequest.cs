@@ -48,6 +48,13 @@ namespace SKIT.FlurlHttpClient.Wechat.Api.Models
                 [Newtonsoft.Json.JsonProperty("url")]
                 [System.Text.Json.Serialization.JsonPropertyName("url")]
                 public string Url { get; set; } = string.Empty;
+
+                /// <summary>
+                /// 获取或设置缩略图 URL。
+                /// </summary>
+                [Newtonsoft.Json.JsonProperty("thumb_url")]
+                [System.Text.Json.Serialization.JsonPropertyName("thumb_url")]
+                public string? ThumbnailUrl { get; set; }
             }
         }
 
